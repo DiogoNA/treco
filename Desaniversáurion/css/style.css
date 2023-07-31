@@ -1,0 +1,82 @@
+@media screen and (orientation: portrait) {
+    .texto-vertical {
+      display: block;
+    }
+  
+    .texto-horizontal {
+      display: none;
+    }
+    html {
+        font-size: 16px;
+        background-color: black;
+        text-align: left;
+    }
+    
+    h1 { 
+        text-align: left;
+        color:white;
+        font-size: 20px;
+        padding: 1em;
+        font-family: 'Courgette', cursive;
+        word-wrap: normal;
+        word-spacing: 0.5px;
+    }
+    
+    
+    h2 {
+        color:rgb(214, 232, 240);
+        margin-top: 0.5em;
+        margin-left: 1em;
+        font-family: 'Courgette', cursive;
+    }
+    
+    p {
+        color: rgb(214, 232, 240);
+        margin: 0.5em;margin-left: 1.3em;
+        font-family: 'Ysabeau SC', sans-serif;
+    }
+  }
+  
+@media screen and (orientation: landscape) {
+    .texto-vertical {
+      display: none;
+    }
+  
+    .texto-horizontal {
+      display: block;
+    }
+
+    .container {
+      display: flex;
+      position: relative;
+      text-align: center;
+    }
+
+    .container img {
+      width: 100%;
+    }
+
+    .texto-imagem {
+      position: absolute;
+    }
+    corpo {
+      background-image: url(../img/cute.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      font-family: 'Lumanosimo', cursive;
+      padding: 1em;
+      color: white;
+    }
+
+    p {
+      font-family: 'Lugrasimo', cursive;
+      margin-left: 1em;
+      margin-right: 1em;
+      text-align: justify;
+      color: white;
+    }
+  }
